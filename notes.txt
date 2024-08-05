@@ -1,1 +1,21 @@
 First init
+
+timestamp 39:50
+
+The computer will keep score between the user and the computer.
+
+1. We need one variable for the user, and for the computer score.
+2. In a while True loop, we ask the person to select r,p, or s.
+3. Make sure that their input is in .lower().
+4. Have a condition that checks for if they want to quit. We can have a break statement after.
+5. Condition for if they didn't type in r,p,s. We continue in the loop.
+6. After these conditions, make a random number with randint(0,2)
+7. This will be the computer move. R,p, and s are delegated to their own number.
+8. Store the r,p,s moves in a list called options before the while loop.
+9. With the random number, we can have the computer select from this list.
+10. Now, we check the different WINNING situations.
+11. If we didn't win, we can have an else statment for the computer.
+12. We don't need continues for these statements because the while loop will keep running until
+the user quits.
+13. We print the user wins and the computer wins at the end of the loop.
+14. There is the end!
